@@ -10,7 +10,7 @@ import utils
 import db
 import images
 
-app = flask.Flask("ureports")
+app = flask.Flask("pictobot")
 
 utils.init_app(app)
 db.init_app(app)
